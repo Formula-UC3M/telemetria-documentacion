@@ -1,9 +1,0 @@
-language: node_js
-node_js:
-  - "9.8.0"
-before_install:
-  - "sudo apt-get -qq update"
-  - "sudo apt-get install -qq libzmq3-dev"
-install: true
-script:
-  - bash ./build.sh

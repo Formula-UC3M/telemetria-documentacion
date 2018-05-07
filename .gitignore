@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # Logs
 logs
 *.log
@@ -67,3 +68,7 @@ typings/
 # Ignore client compiled files
 server/src/public/static/*
 server/src/public/index.html
+=======
+.history
+node_modules
+>>>>>>> Stashed changes
