@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node index.js",
     "test": "gulp test",
-    "lint": "gulp lint"
+    "lint": "gulp lint",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "readme": "README.md",
   "repository": {
@@ -39,7 +41,8 @@
   "dependencies": {
     "dotenv": "^5.0.1",
     "mosca": "^2.8.1",
-    "pillars": "^0.6.4"
+    "pillars": "^0.6.4",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "chai": "3.5.0",
@@ -54,5 +57,6 @@
     "mocha": "3.1.2",
     "mocha-sinon": "1.1.6",
     "sinon": "1.17.7"
-  }
+  },
+  "snyk": true
 }
